@@ -8,12 +8,9 @@
 [![GitHub
 Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-brightgreen)]()
 
-*English \| [简体中文](#简体中文)*
+*[简体中文](#简体中文)*
 
 ------------------------------------------------------------------------
-
-# English
-
 This is a community-maintained package repository for **OPNsense
 amd64**.
 
@@ -76,9 +73,8 @@ Installed plugins remain available.
 | `os-ttyd` | 1.0.1 | ttyd terminal integration |
 | `os-unboundcustom` | 1.0.1 | Safe custom options for Unbound DNS |
 
-> **Disclaimer**
-> This repository is **NOT** affiliated with or supported by the
-> OPNsense Project.
+## Disclaimer
+This repository is **NOT** affiliated with or supported by the OPNsense Project.
 
 
 # 简体中文
@@ -154,5 +150,5 @@ pkg update -f
 
 欢迎提交 Issue 与 Pull Request。
 
-> **免责声明**
-> 本仓库为社区项目，与 OPNsense 官方无任何关联，也不提供官方支持。
+##  免责声明
+本仓库为社区项目，与 OPNsense 官方无任何关联，也不提供官方支持。
