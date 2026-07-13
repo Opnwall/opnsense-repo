@@ -6,7 +6,7 @@ Community packages and plugins for OPNsense amd64 systems.
 
 ```sh
 fetch -o /usr/local/etc/pkg/repos/opnwall.conf \
-  https://opnwall.github.io/opnsense-repo/opnwall.conf
+  https://opnwall.github.io/OPNsense-repo/opnwall.conf
 pkg update -f
 ```
 
