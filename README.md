@@ -35,8 +35,9 @@ Run `build-repo.sh` on an amd64 FreeBSD or OPNsense host:
 ```
 
 The script validates every package, groups it below `repo/${ABI}`, and runs
-`pkg repo`. Commit the resulting repository metadata and packages, then enable
-GitHub Pages with the repository root on the default branch.
+`pkg repo`. Commit and push the resulting repository metadata and packages.
+The included GitHub Actions workflow dereferences repository symlinks and
+deploys the complete static repository to GitHub Pages.
 
 This is an independent community repository and is not supported by the
 OPNsense project. Test packages before using them in production.
