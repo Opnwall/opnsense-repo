@@ -14,17 +14,12 @@ Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-brightgreen)]()
 
 # English
 
-**Opnwall** is a community-maintained package repository for **OPNsense
+This is a community-maintained package repository for **OPNsense
 amd64**.
 
 It provides networking plugins that extend OPNsense with proxy
 integrations, DNS enhancements, Dynamic DNS, localization, diagnostics
 and system utilities.
-
-> **Disclaimer**
->
-> This repository is **NOT** affiliated with or supported by the
-> OPNsense Project.
 
 ## ✨ Features
 
@@ -81,9 +76,14 @@ Installed plugins remain available.
 | `os-ttyd` | 1.0.1 | ttyd terminal integration |
 | `os-unboundcustom` | 1.0.1 | Safe custom options for Unbound DNS |
 
+> **Disclaimer**
+> This repository is **NOT** affiliated with or supported by the
+> OPNsense Project.
+
+
 # 简体中文
 
-**Opnwall** 是一个面向 **OPNsense amd64**
+这是一个面向 **OPNsense amd64**
 的社区软件仓库，为官方仓库提供更多实用插件。
 
 主要包含：
@@ -94,10 +94,6 @@ Installed plugins remain available.
 -   🌏 中文语言包
 -   🔧 网络工具
 -   📊 系统诊断插件
-
-> **免责声明**
->
-> 本仓库为社区项目，与 OPNsense 官方无任何关联，也不提供官方支持。
 
 ## ✨ 特性
 
@@ -144,17 +140,19 @@ pkg update -f
 | 插件 | 版本 | 描述 |
 | --- | --- | --- |
 | `os-ddclient-opnwall` | 1.0.1 | 增强版 DDClient 替代方案，支持阿里云、腾讯云及 IPv6 接口 |
-| `os-ddns-go` | 1.0.1 | DDNS-Go 动态 DNS 集成 |
+| `os-ddns-go` | 1.0.1 | DDNS-Go 动态 DNS |
 | `os-lang` | 1.0.1 | 中文汉化工具 |
-| `os-lucky` | 1.0.1 | Lucky 网络工具箱集成 |
+| `os-lucky` | 1.0.1 | Lucky 网络工具箱 |
 | `os-mihomo` | 1.0.1 | Mihomo 代理工具 |
 | `os-pftop` | 1.0.1 | pfTop 诊断工具 |
 | `os-sing-box` | 1.0.1 | sing-box 代理工具 |
-| `os-staticarp` | 1.0.1 | ARP静态绑定工具 |
+| `os-staticarp` | 1.0.1 | ARP 静态绑定工具 |
 | `os-ttyd` | 1.0.1 | ttyd 终端程序 |
 | `os-unboundcustom` | 1.0.1 | Unbound DNS 自定义选项 |
 
-## 🤝 Contributing / 贡献
+## 🤝 贡献
 
 欢迎提交 Issue 与 Pull Request。
 
+> **免责声明**
+> 本仓库为社区项目，与 OPNsense 官方无任何关联，也不提供官方支持。
