@@ -11,8 +11,7 @@ Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-brightgreen)]()
 *[简体中文](#简体中文)*
 
 ------------------------------------------------------------------------
-This is a community-maintained package repository for **OPNsense
-amd64**.
+This is a community software repository for **OPNsense amd64**; all plugins provided here were written by the author.
 
 It provides networking plugins that extend OPNsense with proxy
 integrations, DNS enhancements, Dynamic DNS, localization, diagnostics
@@ -65,8 +64,7 @@ This repository is **NOT** affiliated with or supported by the OPNsense Project.
 
 # 简体中文
 
-这是一个面向 **OPNsense amd64**
-的社区软件仓库，为官方仓库提供更多实用插件。
+这是一个面向 **OPNsense amd64**的社区软件仓库，所提供的插件均为作者本人编写。
 
 主要包含：
 
