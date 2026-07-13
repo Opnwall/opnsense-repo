@@ -1,26 +1,78 @@
-# Opnwall OPNsense Community Repository
+::: {align="center"}
+# 🧱 Opnwall OPNsense Community Repository
 
-Community packages and plugins for OPNsense amd64 systems.
+**Community Plugins for OPNsense**
 
-## Install on OPNsense
+[![OPNsense](https://img.shields.io/badge/OPNsense-26.x-orange)]()
+[![Platform](https://img.shields.io/badge/Platform-amd64-blue)]()
+[![License](https://img.shields.io/badge/License-Multiple-green)]()
+[![GitHub
+Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-brightgreen)]()
 
-```sh
+`<img src="docs/logo.png" width="128" alt="Opnwall Logo"/>`{=html}
+
+*English \| [简体中文](#简体中文)*
+:::
+
+------------------------------------------------------------------------
+
+# English
+
+## Overview
+
+**Opnwall** is a community-maintained package repository for **OPNsense
+amd64**.
+
+It provides networking plugins that extend OPNsense with proxy
+integrations, DNS enhancements, Dynamic DNS, localization, diagnostics
+and system utilities.
+
+> **Disclaimer**
+>
+> This repository is **NOT** affiliated with or supported by the
+> OPNsense Project.
+
+## ✨ Features
+
+-   Native OPNsense plugin repository
+-   GitHub Pages hosted
+-   Automatic repository generation
+-   GitHub Actions deployment
+-   Easy installation and updates
+
+## 📦 Installation
+
+``` sh
 fetch -o /usr/local/etc/pkg/repos/opnwall.conf \
   https://opnwall.github.io/OPNsense-repo/opnwall.conf
+
 pkg update -f
 ```
 
-Then open **System > Firmware > Plugins**. Packages whose names start with
-`os-` are displayed as plugins.
+Open:
 
-Remove the repository configuration without uninstalling installed plugins:
+    System
+    └── Firmware
+        └── Plugins
 
-```sh
+Install any package beginning with `os-`.
+
+## 🔄 Update
+
+``` sh
+pkg update -f
+```
+
+## ❌ Remove Repository
+
+``` sh
 rm -f /usr/local/etc/pkg/repos/opnwall.conf
 pkg update -f
 ```
 
-## Available plugins
+Installed plugins remain available.
+
+## 📋 Plugins
 
 | Package | Version | Description |
 | --- | --- | --- |
@@ -35,18 +87,89 @@ pkg update -f
 | `os-ttyd` | 1.0.1 | ttyd terminal integration |
 | `os-unboundcustom` | 1.0.1 | Safe custom options for Unbound DNS |
 
-## Maintainer workflow
+# 简体中文
 
-Run `build-repo.sh` on an amd64 FreeBSD or OPNsense host:
+## 项目简介
 
-```sh
-./build-repo.sh /path/to/os-unboundcustom.pkg
+**Opnwall** 是一个面向 **OPNsense amd64**
+的社区软件仓库，为官方仓库提供更多实用插件。
+
+主要包含：
+
+-   🌐 代理插件（Mihomo、sing-box）
+-   🛡 DNS 增强
+-   ☁️ DDNS
+-   🌏 中文语言包
+-   🔧 网络工具
+-   📊 系统诊断插件
+
+> **免责声明**
+>
+> 本仓库为社区项目，与 OPNsense 官方无任何关联，也不提供官方支持。
+
+## ✨ 特性
+
+-   原生 OPNsense 插件
+-   GitHub Pages 软件仓库
+-   自动生成 pkg 仓库
+-   GitHub Actions 自动发布
+-   支持在线升级
+
+## 📦 安装
+
+``` sh
+fetch -o /usr/local/etc/pkg/repos/opnwall.conf \
+  https://opnwall.github.io/OPNsense-repo/opnwall.conf
+
+pkg update -f
 ```
 
-The script validates every package, groups it below `repo/${ABI}`, and runs
-`pkg repo`. Commit and push the resulting repository metadata and packages.
-The included GitHub Actions workflow dereferences repository symlinks and
-deploys the complete static repository to GitHub Pages.
+然后进入：
 
-This is an independent community repository and is not supported by the
-OPNsense project. Test packages before using them in production.
+    系统
+    └── 固件
+        └── 插件
+
+安装所有 `os-` 开头的软件包。
+
+## 🔄 更新
+
+``` sh
+pkg update -f
+```
+
+## ❌ 删除仓库
+
+``` sh
+rm -f /usr/local/etc/pkg/repos/opnwall.conf
+pkg update -f
+```
+
+不会卸载已经安装的插件。
+
+## 📦 插件列表
+
+| 插件 | 版本 | 描述 |
+| --- | --- | --- |
+| `os-ddclient-opnwall` | 1.0.1 | Extended DDClient replacement with Aliyun, Tencent Cloud and IPv6 interface support |
+| `os-ddns-go` | 1.0.1 | DDNS-Go dynamic DNS integration |
+| `os-lang` | 1.0.1 | Chinese localization updater |
+| `os-lucky` | 1.0.1 | Lucky network toolbox integration |
+| `os-mihomo` | 1.0.1 | Mihomo proxy integration |
+| `os-pftop` | 1.0.1 | pfTop diagnostics page |
+| `os-sing-box` | 1.0.1 | sing-box proxy integration |
+| `os-staticarp` | 1.0.1 | Static ARP binding integration |
+| `os-ttyd` | 1.0.1 | ttyd terminal integration |
+| `os-unboundcustom` | 1.0.1 | Safe custom options for Unbound DNS |
+
+## 🤝 Contributing / 贡献
+
+Issues and Pull Requests are welcome.
+
+欢迎提交 Issue 与 Pull Request。
+
+------------------------------------------------------------------------
+
+## 📄 License
+
+Each plugin may have its own license.
