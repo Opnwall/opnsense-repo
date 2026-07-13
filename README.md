@@ -58,6 +58,9 @@ Installed plugins remain available.
 | `os-ttyd` | 1.0.1 | ttyd terminal integration |
 | `os-unboundcustom` | 1.0.1 | Safe custom options for Unbound DNS |
 
+## License
+These plugins and packages are free as in beer! There is no source code hosted but you may use them for free and forever. Selling these plugins is prohibited! 
+
 ## Disclaimer
 This repository is **NOT** affiliated with or supported by the OPNsense Project.
 
@@ -115,6 +118,9 @@ pkg update -f
 | `os-staticarp` | 1.0.1 | ARP 静态绑定工具 |
 | `os-ttyd` | 1.0.1 | ttyd 终端程序 |
 | `os-unboundcustom` | 1.0.1 | Unbound DNS 自定义选项 |
+
+## 许可声明
+这些插件和软件包是免费的！有些虽然没有托管源码，但你可以免费并永久使用，禁止出售这些插件！
 
 ##  免责声明
 本仓库为社区项目，与 OPNsense 官方无任何关联，也不提供官方支持。
