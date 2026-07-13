@@ -24,7 +24,7 @@ pkg update -f
 
 | Package | Version | Description |
 | --- | --- | --- |
-| `os-unboundcustom` | 1.2.3 | Safe custom options for Unbound DNS |
+| `os-unboundcustom` | 1.2.4 | Safe custom options for Unbound DNS |
 
 ## Maintainer workflow
 
