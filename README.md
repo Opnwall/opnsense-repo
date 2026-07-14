@@ -66,7 +66,7 @@ pkg update -f
 | `os-ttyd` | 1.0.2 | ttyd 终端程序 |
 | `os-unboundcustom` | 1.0.2 | Unbound DNS 自定义选项 |
 
-## 源代码
+## 插件源码
 
 已发布插件的完整源码位于 [`src/`](src/) 目录。每个 `os-*`目录都是独立项目，可在 OPNsense/FreeBSD 主机上使用项目内的 `build.sh` 编译。
 
