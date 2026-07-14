@@ -15,7 +15,7 @@ Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-brightgreen)]()
 
 
 ------------------------------------------------------------------------
-This is a community software repository for **OPNsense amd64**; all plugins provided here were written by the author.
+This is a community software repository for **OPNsense amd64**，It extends OPNsense with proxy integrations, DNS enhancements, Dynamic DNS, localization, diagnostics and system utilities.
 
 It provides networking plugins that extend OPNsense with proxy
 integrations, DNS enhancements, Dynamic DNS, localization, diagnostics

@@ -14,7 +14,7 @@
 [![GitHub
 Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-brightgreen)]()
 
-这是一个面向 **OPNsense amd64**的社区软件仓库，所提供的插件均为本人编写。
+这是一个面向 **OPNsense amd64**的社区软件仓库，为 OPNsense 提供代理集成、DNS 增强、动态 DNS、中文汉化、系统诊断和网络工具等扩展。。
 
 主要包含：
 
