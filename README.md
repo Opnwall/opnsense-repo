@@ -4,7 +4,7 @@
   <a href="README.US.md">English</a>
 </div>
 
-# Opnwall OPNsense Community Repository
+# OPNsense Community Repository
 
 **Community Plugins for OPNsense**
 
